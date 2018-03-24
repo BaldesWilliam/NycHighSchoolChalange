@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.helpmeproductions.willus08.nychighschoolchalange.view.activities.detailed_information.DetailedInformation">
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintVertical_weight="2"
+         />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvPhone"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/tvWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/tvScoreHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvWebsite"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/tvWritingScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvScoreHeader"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/tvReadingScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvWritingScore"
+        app:layout_constraintVertical_weight="2" />
+
+    <TextView
+        android:id="@+id/tvMathScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvReadingScore" />
+
+    <TextView
+        android:id="@+id/tvOpportunity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvMathScore" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOpportunity" />
+
+</android.support.constraint.ConstraintLayout>

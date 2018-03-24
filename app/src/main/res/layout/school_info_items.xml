@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:id="@+id/rlItemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/tvSchoolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/tvSchoolAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:layout_below="@id/tvSchoolName"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tvSchoolWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:layout_below="@id/tvSchoolAddress"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tvSchoolEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_margin="4dp"
+            android:layout_below="@id/tvSchoolWebsite"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

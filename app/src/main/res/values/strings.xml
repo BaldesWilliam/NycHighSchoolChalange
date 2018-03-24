@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NycHighSchoolChalange</string>
+    <string name="scores_header">SAT Scores</string>
+</resources>
